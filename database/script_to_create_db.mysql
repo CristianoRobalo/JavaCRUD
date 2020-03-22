@@ -1,0 +1,10 @@
+create database computerShop;
+
+use computerShop;
+
+create table product(
+	productId int primary key AUTO_INCREMENT,
+	name varchar(50) not null,
+	description varchar(150) not null,
+	price float not null
+);
